@@ -1,0 +1,102 @@
+<div class=" mt-5 container-fluid">
+  <div class="row justify-content-center align-content-center">
+    <div class="col-4">
+      <!-- <img src="assets/images/logo.jpg" class="img-circle" alt="logo" width="70" height="65"><br> -->
+      <div class="container-fluid body">
+        <form>
+          <div class="form-group">
+            <div class="  row justify-content-center">
+                <div class="mt-4  col-11">
+                  <label for="confirm"><b>Enter Current Password:</b></label>
+                </div>
+                <div class="col-11">
+                  <input
+                    id="confirm"
+                    formControlName="confirm"
+                    type="password"
+                    required
+                    class="input form-control"
+                  />
+                </div>
+              </div>
+            <div class=" mt-4 row justify-content-center">
+              <div class="col-11">
+                <label for="newPW"><b>Enter New Password:</b></label>
+              </div>
+              <div class="col-11 input-group input-group-sm">
+                <input
+                  id="newPW"
+                  formControlName="newPW"
+                  type="password"
+                  required
+                  class="input form-control"
+                />
+                <div class="input-group-append">
+                    <button class="btn btn-clear" type="button"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                  </div>
+              </div>
+            </div>
+            <div class="mt-4 row justify-content-center">
+              <div class="col-11">
+                <label for="confirm"><b>Re-enter New Password:</b></label>
+              </div>
+              <div class="col-11 input-group input-group-sm">
+                <input
+                  id="confirm"
+                  formControlName="confirm"
+                  type="password"
+                  required
+                  class="input form-control"
+                />
+                <div class="input-group-append">
+                    <button class="btn btn-clear" type="button"><i class="fa fa-eye" aria-hidden="true"></i></button>
+                  </div>
+              </div>
+            </div>
+            <div class=" mt-4 row justify-content-around ">
+              <div class="col-11 ">
+                <label><b>Password must have minimum of</b></label>
+              </div>
+              <div class=" ml-5 badge badge-success col-4 text-center">
+                  <h5>
+                8 characters
+            </h5>
+               
+              </div>
+              <div class=" mr-5 col-4 badge badge-success ">
+                  <h5>
+                1 Number
+            </h5>
+              </div>
+             <div class="  mr-4 mt-4 col-8 text-center badge badge-danger"> <h5>1 Special Character(@#$%^)</h5></div>
+              
+            </div>
+            <div class="row justify-content-center">  <div class="mt-3 ml-5 col-10">
+                <button type="submit" class="btn  btn-update btn-lg btn-primary">Update</button>
+              </div></div>
+          </div>
+
+          <br />
+
+          <div class="form-group">
+            <!-- <label for="confirm"><b>Re-enter New Password</b></label>
+            <input
+              id="confirm"
+              formControlName="confirm"
+              type="text"
+              required
+            /><br /> -->
+          </div>
+          <!-- <label><b>Password must have minimum of</b></label
+          ><br /><br />
+          <span class="label characters">8 Characters</span>
+          <span class="label number">1 Number</span><br /><br />
+          <span class="label special-character">1 Special Character(@#$%^)</span
+          ><br /><br />
+
+          <button type="submit" class="btn btn-outline-danger">Save</button> -->
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
